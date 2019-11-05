@@ -14,7 +14,7 @@ def create_app():
     db.init_app(app)
 
     __signin__ = LoginManager()
-    __signin__.login_view = 'authenticate.signin'
+    __signin__.login_view = '__auth__.signin'
     __signin__.init_app(app)
 
     from .users import __user__
