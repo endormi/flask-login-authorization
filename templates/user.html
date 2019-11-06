@@ -3,9 +3,15 @@
 {% block title %}Flask-Login-Boilerplate - User {{ name }}{% endblock %}
 
 {% block content %}
-<br />
-<br />
+
+<div class="row top-pad2">
 <h1 class="title">
-  Welcome {{ name }}!
+
+  {% if current_user.is_authenticated %}
+    Hi {{ current_user.name }}!
+  {% endif %}
+
 </h1>
+</div>
+
 {% endblock %}
