@@ -1,0 +1,21 @@
+.col-pad-center {
+  text-align: center;
+  padding-left: 4rem;
+}
+
+.text-deco {
+  color: #fff;
+  text-decoration: none;
+}
+
+.top-pad {
+  padding-top: 15rem;
+}
+
+.top-pad2 {
+  padding-top: 5rem;
+}
+
+.no-pad {
+  padding: 0;
+}
