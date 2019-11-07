@@ -1,6 +1,6 @@
 # flask-login-boilerplate
 
-Flask login boilerplate using bootstrap (**4.1.3**)
+Flask login boilerplate using bootstrap (**4.1.3**). Simple user authorization and authentication.
 
 ## Getting started
 
