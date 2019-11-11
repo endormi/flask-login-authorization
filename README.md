@@ -19,7 +19,15 @@ SQLALCHEMY_DATABASE_URI = "sqlite:///db.sqlite3"
 SECRET_KEY = 'Your_Secret_Key'
 ```
 
-You might need to add `FLASK_APP`
+You might need to set `FLASK_APP`.
+
+> I advise you to rename this folder to project or app for example, in these examples I am using project.
+
+Change directory:
+
+```sh
+cd..
+```
 
 For Windows `Command prompt`:
 
