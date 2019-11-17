@@ -8,6 +8,18 @@
   text-decoration: none;
 }
 
+.author:hover {
+  color: rgb(78, 78, 78);
+}
+
+.al-link {
+  color: rgb(78, 78, 78);
+}
+
+.al-link:hover {
+  color: rgb(78, 78, 78);
+}
+
 .top-pad {
   padding-top: 15rem;
 }
