@@ -4,6 +4,12 @@ Flask login boilerplate using bootstrap (**4.1.3**). Simple user authorization a
 
 ## Getting started
 
+Clone:
+
+```sh
+HTTPS: https://github.com/endormi/flask-login-boilerplate.git SSH: git@github.com:endormi/flask-login-boilerplate.git
+```
+
 Install requirements:
 
 ```sh
