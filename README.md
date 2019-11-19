@@ -1,13 +1,13 @@
-# flask-login-boilerplate
+# flask-login-authorization
 
-Flask login boilerplate using bootstrap (**4.1.3**). Simple user authorization and authentication.
+Flask login authorization using bootstrap (**4.1.3**).
 
 ## Getting started
 
 Clone:
 
 ```sh
-HTTPS: https://github.com/endormi/flask-login-boilerplate.git SSH: git@github.com:endormi/flask-login-boilerplate.git
+HTTPS: https://github.com/endormi/flask-login-authorization.git or SSH: git@github.com:endormi/flask-login-authorization.git
 ```
 
 Install requirements:
