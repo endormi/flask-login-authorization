@@ -43,7 +43,7 @@ def __signup__():
         flash('Email address already exists.')
         return redirect(url_for('__auth__.signup'))
 
-    __new__ = __user__(email=email, name=name, password=generate_password_hash(password, method='sha256'))
+    __new__ = __user__(email=email, name=name, password=generate_password_hash(password, method='pbkdf2:sha512'))
 
     db.session.add(__new__)
     db.session.commit()
