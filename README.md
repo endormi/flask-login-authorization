@@ -1,6 +1,6 @@
 # flask-login-authorization
 
-Flask login authorization using bootstrap (**4.1.3**).
+Flask login authorization using bootstrap (**4.1.3**) with password hashing (sha512).
 
 ## Getting started
 
